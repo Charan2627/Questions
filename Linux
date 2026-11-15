@@ -1,0 +1,51 @@
+1.  "How do you check disk space usage in Linux?"
+2.  "How do you check disk space usage?"
+3.  "Where are system logs stored?"
+4.  "Where are logs typically stored in Linux?"
+5.  "If a server is not starting properly, how do you debug it?"
+6.  "Disk full troubleshooting?"
+7.  Can you explain Linux file permissions and how you would give execute permission to a
+user?
+8.  How do you change file permissions?
+9.  What does 777 permission mean?
+10. What are the numeric values for read, write, and execute permissions?
+11. What are the default permissions of a file and directory?
+12. How do you change the ownership of a file?
+13. Root user but cannot create file?
+14. How do you create a user and assign it to a group?
+15. How do you create a user in Linux?
+16. Where are user details stored in Linux?
+17. How do you check disk space usage in Linux?
+18. How do you troubleshoot disk space issues step by step?
+19. Disk free but cannot perform actions?
+20. How do you find the largest files in a directory?
+21. Disk space command?
+22. How do you check CPU, memory, and running processes in Linux?
+23. How do you check memory usage?
+24. How do you check CPU usage?
+25. What is free command?
+26. top vs htop?
+27. Troubleshoot slow server?
+28. Memory issue commands?
+29. What is zombie process?
+30. Where are system logs stored?
+31. What kind of logs are in /var/log/messages?
+32. How do you check live logs on a server?
+33. You are unable to SSH into a server. How will you troubleshoot?
+34. How do you check network connectivity between two servers?
+35. How to see listening ports?
+36. Networking issue commands?
+37. The server is not coming up after reboot. What steps will you take?
+38. If a server is not starting properly, how do you debug it?
+39. A crontab job is failing. How would you debug it?Write a shell script to print the largest of
+three numbers.
+40. What is the purpose of #!/bin/bash in a script?
+41. How do you pass arguments to a shell script?
+42. How shell script executed?
+43. What is -e in shell?
+44. Write a shell script you have used in your project.
+45. How do you create a file in Linux?
+46. How do you create a directory?
+47. What is the difference between soft link and hard link? When would you use each?
+48. What happens when you run hostnamectl?
+49. Top Linux commands used?
