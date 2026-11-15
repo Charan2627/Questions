@@ -1,0 +1,89 @@
+1.  "What is a Pod?"
+2.  "What is Ingress?"
+3.  "What is the difference between Deployment and StatefulSet?"
+4.  "What deployment strategy have you used?"
+5.  "Explain Kubernetes architecture."
+6.  "How do you troubleshoot a pod in CrashLoopBackOff?"
+7.  "What happens when a pod goes into CrashLoopBackOff?"
+8.  "What is CrashLoopBackOff?"
+9.  "What does Pod NotReady state mean?"
+10.  "How do you check logs of a pod?"
+11.  "If a pod is not coming up, what steps will you take?"
+12.  "Readiness & Liveness probes?"
+13.  "What are readiness and liveness probes?"
+14.  "What is Blue-Green deployment?"
+15.  "What is Rolling Update?"
+16. What are the core components of Kubernetes?
+17. Why do we use Kubernetes?
+18. What is a Pod?
+19. What is a Deployment?
+20. What is a StatefulSet?
+21. What is a DaemonSet?
+22. What is the relationship between Deployment, ReplicaSet, and Pod?
+22. What is the relationship between Deployment, ReplicaSet, and Pod?
+23. Difference between Pod, ReplicaSet, Deployment?
+24. Why StatefulSet for MySQL?
+25. What is PVC?
+26. Can we attach PV/PVC to a Deployment?
+27. Can we create StatefulSet without PV/PVC?
+28. What is RBAC in Kubernetes?
+29. What is TLS?
+30. Explain Kubernetes architecture.
+31. How does traffic flow from domain → Ingress → Service → Pod?
+32. What are Kubernetes Services?
+33. What are the types of Services in Kubernetes?
+34. What is the difference between ClusterIP, NodePort, and LoadBalancer services?
+35. What is the difference between LoadBalancer Service and Ingress?
+36. What is Ingress and how does it work internally?
+37. How do you expose a service using Ingress?
+38. How do you set up an Ingress Controller?
+39. How pods communicate?
+40. Service vs Pod?
+41. Multiple clusters vs namespaces?
+42. What is a headless service?
+43. Which deployment strategy have you used?
+44. How do you implement Blue-Green or Rolling update in Kubernetes?
+45. Is there any downtime in Blue-Green deployment?
+46. How does rolling update work internally in Kubernetes?
+47. How do you split traffic 50% to Team A and 50% to Team B in Kubernetes?
+48. How do you perform rollback in Kubernetes?
+49. How do you achieve zero downtime in Kubernetes?
+50. How do you decide whether to roll back or apply a hotfix in production?
+51. How do you stop broken code from reaching production?
+52. How does Horizontal Pod Autoscaler work?
+53. HPA vs VPA?
+54. HPA vs ClusterIP?
+55. How do you check high CPU/memory consuming pods?
+56. Container exceeded memory?
+57. Pod latency troubleshooting?
+58. What happens when a node goes into NotReady state?
+59. If node goes down?
+60. Node is in NotReady state — what will you do?
+61. What does Pod NotReady mean?
+62. Pod in Pending state?
+63. How do you debug a Pending Pod?
+64. ImagePullBackOff?
+65. Deployment stuck in progressing — how do you troubleshoot?
+66. Persistent Volume not attaching — how do you debug?
+67. If a pod is continuously restarting, how do you troubleshoot?
+68. If a pod is not coming up, what steps will you take?
+69. Pod running but service unreachable?
+70. Pod running but service not accessible — what do you check?
+71. No logs because container never started?
+72. Common Kubernetes errors?
+73. Debug commands?
+74. How do you monitor logs in EKS?
+75. How do you know pod is ready?
+76. Sync Status vs App Health?
+77. How do you implement ArgoCD?
+78. What is ArgoCD and how does it work?
+79. What is GitOps?
+80. How ArgoCD detects drift?
+81. Image tag mismatch issues?
+82. What is volumeClaimTemplates?
+83. What is PVC?
+84. How do you design a highly available Kubernetes cluster?
+85. Cluster upgrades in EKS?
+86. Write a sample YAML file for any Kubernetes resource.
+87. How do you list pods based on age?
+88. How do you enter inside a pod?
