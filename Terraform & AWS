@@ -1,0 +1,205 @@
+1.  "What is Terraform?"
+2.  "What is Infrastructure as Code (IaC)?"
+3.  "What is a Terraform state file?"
+4.  "What is the use of Terraform state file?"
+5.  "What is the purpose of the state file?"
+6.  "What happens if Terraform state file is deleted?"
+7.  "What is Terraform backend?"
+8.  "What is the difference between local and remote backend?"
+9.  "Local vs remote backend?"
+10.  "What is state locking in Terraform?"
+11.  "Terraform state locking?"
+12.  "Terraform state file lock?"
+13.  "How do you manage Terraform state in a team?"
+14.  "How do you manage Terraform state?"
+15.  "What is the difference between terraform plan and terraform apply?"
+16.  "What are Terraform provisioners?"
+17.  "What are data sources in Terraform?"
+18.  "What are Terraform workspaces?"
+19.  "How do you call a local module?"
+20.  "What is a Terraform module?"
+21.  "What are best practices for production Terraform usage?"
+22. What is Terraform and how does it work?
+23. Why do you use Terraform?
+24. What is Infrastructure as Code (IaC)?
+25. What is the Terraform workflow?
+26. What is the difference between Terraform and AWS CloudFormation?
+27. Can Terraform manage on-prem servers?
+28. If your Terraform version is fixed, will it automatically upgrade?
+29. What is a Terraform state file?
+30. How does Terraform state file work internally?
+31. Where do you store Terraform state file and why?
+32. What happens if state file is deleted?
+33. How do you recover from a deleted state file?
+34. If Terraform state file gets corrupted, how will you troubleshoot?
+35. What happens when terraform apply fails halfway?
+36. What is a backend in Terraform?
+37. How do you handle Terraform remote backend?
+38. How does state locking work?
+39. Why is state locking important?
+40. If two people are working on the same Terraform file, how do you avoid conflicts?
+41. What are the most commonly used Terraform commands?
+42. Daily Terraform commands usage?
+43. If you have 100 resources and want to apply only one, how do you do it?
+44. What is terraform taint?
+45. What is terraform taint / -replace?
+46. What is terraform import?
+47. Can we import existing resources into Terraform?
+48. What is a provider in Terraform?
+49. What is the difference between provider block and resource block?
+50. What resources have you created using Terraform?
+51. What is the output block in Terraform?
+52. In how many ways can we pass values in Terraform?
+53. What is the difference between variables, locals, and outputs?
+54. What are Terraform modules?
+55. Can we move outputs from one module to another module?
+56. How to call a local module?
+57. How to structure Terraform for multiple environments?
+58. Difference between for_each and count?
+59. How Terraform handles dependencies?
+60. What is implicit and explicit dependency (depends_on)?
+61. What are data sources?
+62. What is drift detection in Terraform?
+63. How do you detect and handle drift?
+64. If someone manually changes resources in AWS Console, how do you sync Terraform?
+65. If AWS console changes, will Terraform detect it?
+66. How do you write Terraform code to launch an EC2 instance using variables?
+67. How do you create a VPC using Terraform?
+68. Write Terraform code to create an S3 bucket.
+69. How do you create 50 EC2 instances dynamically?
+70. In VPC, how will you create 4 subnets in a single resource block?
+71. What troubleshooting have you done in Terraform?
+72. How do you handle secrets in Terraform?
+73. How do you handle sensitive variables in Terraform?
+74. What is the difference between Security Group and NACL?
+75. What are ingress and egress rules?
+76. Best practices for production Terraform?
+
+
+1.  "What AWS services have you worked on in your project?"
+2.  "What is the difference between IAM user and IAM role?"
+3.  "What is Route 53 and how does it resolve traffic?"
+4.  "What is Route 53 and how do you map it to an ALB?"
+5.  "What is the difference between Security Groups and NACLs?"
+6.  "What is the difference between ALB and NLB?"
+7.  "What is a NAT Gateway?"
+8.  "What is an Internet Gateway?"
+9.  "What is VPC peering?"
+10.  "What is the difference between a Public subnet and a Private subnet?"
+11.  "Difference between public and private subnet?"
+12.  "What happens if one AZ fails?"
+13.  "How do you design multi-region architecture?"
+14.  "Types of Load Balancers?"
+15.  "Difference between NACL and Security Group?"
+16.  "What is user data in EC2?"
+17.  "Types of S3 storage classes?"
+18.  "How does Auto Scaling work with ALB?"
+19.  "What is VPC?"
+20. What AWS services have you worked with?
+21. What is the difference between EC2, ECS, and EKS?
+22. What type of RDS have you worked with?
+23. What is Lambda and where have you used it?
+24. What is CloudFront?
+25. What is CDN?
+26. What is high availability? Example?
+27. Why organizations move to cloud?
+28. What is IAM?
+29. What are IAM roles, users & policies?
+30. Difference between IAM policy and Trust policy?
+31. What is Assume Role and how does it work?
+32. What is AWS STS?
+33. What is a Service Control Policy (SCP)?
+34. What happens if SCP denies but IAM allows?
+35. How does cross-account access work in AWS?
+36. If I have to restrict access to someone over cloud how do you do it?
+37. How does IAM role attached to EC2 work?
+38. How do you provide S3 access to an EC2 instance using IAM roles?
+39. How do services communicate securely within AWS?
+40. How do you secure S3 buckets?
+41. A user cannot access an S3 bucket. How do you troubleshoot?
+42. How do you securely copy S3 data between accounts?
+43. How do you secure VPC workloads at scale?
+44. What is VPC? Explain its components.
+45. Core components of VPC?
+46. How to design a VPC?
+47. What is CIDR in AWS?
+48. How do you calculate IP addresses from CIDR?
+49. How many IPs does AWS reserve in a subnet?
+50. Which IP addresses are blocked by AWS?
+51. What is a private subnet and public subnet?
+52. What is the difference between Public EC2 and Private EC2?
+53. What is a NAT Gateway? Where does it reside?
+54. How does routing work for a NAT Gateway?
+55. What is the difference between a NAT Gateway and a Bastion Host?
+56. How can a private subnet access S3 without using the public internet?
+57. How do you connect multiple VPCs?
+58. What are alternatives to VPC Peering?
+59. How to connect one VPC to another?
+60. How to design public & private subnets?
+61. What are the types of Load Balancers in AWS?
+62. What is an Application Load Balancer?
+63. Which Route 53 record type is used for ALB?
+64. How does a Load Balancer work in a Multi-AZ setup?
+65. How to associate servers with Load Balancer?
+66. Register servers before routing traffic?
+67. What is ASG and how is it designed?
+68. Real-time example of ASG?
+69. What is Launch Template?
+70. What is Auto Scaling in AWS and how do you configure scaling policies?
+71. What is the difference between target tracking, step scaling, and simple scaling policies?
+72. How do you implement AutoScaling with health checks?
+73. How to handle load spikes in AWS?
+74. What is the difference between S3 and EBS?
+75. Difference between S3, EBS, EFS?
+76. What is EBS, S3, EFS?
+77. Which S3 storage class are you using and how do you optimize cost?
+78. S3 lifecycle policy?
+79. Can we replicate S3 data?
+80. How do you configure cross-region replication?
+81. Difference between S3 Standard and Glacier?
+82. How does S3 lifecycle work?
+83. How do you optimize cost for S3?
+84. How do you reduce RDS cost without downtime?
+85. What happens when an EC2 instance is stopped vs terminated?
+86. How do you attach EBS to EC2?
+87. I am trying to launch an EC2 but unable to. How do you troubleshoot?
+88. Types of EC2 instances?
+89. Difference between M family and C family instances?
+90. How do you troubleshoot unreachable EC2?
+91. How do you make EC2 run commands at launch?
+92. How do you attach an IAM role to an EC2 instance?
+93. If an EC2 instance is accidentally deleted, how will you recover it using Terraform?
+94. Which Route 53 record type is used for ALB?
+95. What is Route 53 and how does it resolve traffic?
+96. What is Route 53 and how do you map it to an ALB?
+97. How do you design a highly available architecture across multiple AZs?
+98. What happens if AZ fails?
+99. How to achieve HA and fault tolerance in AWS
+100. AWS DR concepts?
+101. How do you design highly available infrastructure without Kubernetes?
+102. How do you design multi-region architecture?
+103. Why multi-region architecture?
+104. What happens if one AZ fails?
+105. How do you optimize cloud cost?
+106. What are Reserved Instances and Savings Plans?
+107. What is the difference between TCP and UDP?
+108. What is the difference between HTTP and HTTPS?
+109. What does the "S" in HTTPS stand for?
+110. What is TLS/SSL?
+111. Who issues SSL certificates?
+112. Can you explain the SSL/TLS handshake at a high level?
+113. What are processes in Linux?
+114. How do you check running processes?
+115. Command to check disk space?
+116. Difference between df and du?
+117. How do you manage file permissions?
+118. What is 777 permission?
+119. How do you search files by time?
+120. How do you search for keyword inside files?
+121. How do you schedule a job?
+122. What is zombie process?
+123. How do you check listening ports?
+124. How do you troubleshoot slow Linux server?
+125. Top 5 largest files script?
+126. Script to alert if CPU exceeds 80%?
+127. Write a script to modify file content?
